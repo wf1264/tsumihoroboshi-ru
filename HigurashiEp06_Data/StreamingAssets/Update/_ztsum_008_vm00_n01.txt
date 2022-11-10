@@ -1,0 +1,55 @@
+void main()
+{
+}
+
+void dialog000()
+{
+}
+
+void dialog001()
+{	
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#cd74a7>リナ</color>", NULL, "<color=#cd74a7>Рина</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 20, "ps3/s09/20/172100132", 256, TRUE);
+	OutputLine(NULL, "「私ね、妊娠してるの。」",
+		   NULL,"\"Я, понимаешь, беременна.\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog002()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
+	OutputLine(NULL, "　妊娠したから離婚しなくちゃならない、妊娠したから再婚しなくちゃならないなんて、",
+		   NULL,"Той из-за беременности пришлось развестись, этой — выйти замуж,", Line_ContinueAfterTyping);
+	SetValidityOfInput( FALSE );
+	Wait( 800 );
+	SetValidityOfInput( TRUE );
+	OutputLine(NULL, "嘘だ嘘だ、",
+		   NULL," вот враньё-то, ну и враньё,", Line_ContinueAfterTyping);
+	SetValidityOfInput( FALSE );
+	Wait( 1000 );
+	SetValidityOfInput( TRUE );
+	OutputLine(NULL, "大嘘だ…！！",
+		   NULL," какое ж враньё!!...", Line_Normal);
+	ClearMessage();
+
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#cd74a7>リナ</color>", NULL, "<color=#cd74a7>Рина</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 20, "ps3/s09/20/172100135", 256, TRUE);
+	OutputLine(NULL, "「私、クリスチャンだから中絶は出来ないのよねー。",
+		   NULL,"\"Я христианка, поэтому аборт сделать не могу.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 20, "ps3/s09/20/172100136", 256, TRUE);
+	OutputLine(NULL, "認知してもらわざるを得ないしー。",
+		   NULL," Придётся ему взять на себя ответственность.", Line_WaitForInput);
+	ModPlayVoiceLS(4, 20, "ps3/s09/20/172100137", 256, TRUE);
+	OutputLine(NULL, "それに結婚を前提の性交渉だったわけだしね。",
+		   NULL," Да и тем более, мы занимались любовью, рассчитывая пожениться.", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}
+
+void dialog003()
+{
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#cd74a7>リナ</color>", NULL, "<color=#cd74a7>Рина</color>", NULL, Line_ContinueAfterTyping); }
+	ModPlayVoiceLS(4, 20, "ps3/s09/20/172100138", 256, TRUE);
+	OutputLine(NULL, "妊娠までさせといて、今さらちゃぶ台返しなんてことになるとー、最近は問題が多いわよねぇ？」",
+		   NULL," Раз уж я забеременела, поворачивать назад поздно. Иначе сколько ж мороки для него будет!\"", GetGlobalFlag(GLinemodeSp));
+	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
+}

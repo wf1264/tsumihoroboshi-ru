@@ -1,0 +1,88 @@
+{
+    "0": [
+        {
+            "Id": 24,
+            "Script": "_tsum_tips_001",
+            "Title": "Прекрасная погода",
+            "TitleJp": "いいお天気"
+        },
+        {
+            "Id": 25,
+            "Script": "_tsum_tips_002",
+            "Title": "Визитная карточка",
+            "TitleJp": "名刺"
+        },
+        {
+            "Id": 26,
+            "Script": "_tsum_tips_003",
+            "Title": "Летний дневник в картинках",
+            "TitleJp": "夏休みの絵日記"
+        },
+        {
+            "Id": 27,
+            "Script": "_tsum_tips_004",
+            "Title": "Надвигающиеся тучи",
+            "TitleJp": "雨雲の予感"
+        },
+        {
+            "Id": 28,
+            "Script": "_tsum_tips_005",
+            "Title": "Оценочная стоимость",
+            "TitleJp": "お見積書"
+        },
+        {
+            "Id": 29,
+            "Script": "_tsum_tips_006",
+            "Title": "Любимое вино",
+            "TitleJp": "お気に入りのワイン"
+        },
+        {
+            "Id": 30,
+            "Script": "_tsum_tips_007",
+            "Title": "Извещение от лесничества",
+            "TitleJp": "営林署便り"
+        },
+        {
+            "Id": 31,
+            "Script": "_tsum_tips_008",
+            "Title": "Заказы к обеду",
+            "TitleJp": "昼の出前リスト"
+        },
+        {
+            "Id": 32,
+            "Script": "_tsum_tips_009",
+            "Title": "Заказы к обеду 2",
+            "TitleJp": "昼の出前リスト２"
+        },
+        {
+            "Id": 33,
+            "Script": "_tsum_tips_010",
+            "Title": "Заказы к обеду 3",
+            "TitleJp": "昼の出前リスト３"
+        },
+        {
+            "Id": 34,
+            "Script": "_tsum_tips_011",
+            "Title": "\"ОНИ\"",
+            "TitleJp": "やつら"
+        },
+        {
+            "Id": 35,
+            "Script": "_tsum_tips_012",
+            "Title": "Почему я выбрал Хинамидзаву",
+            "TitleJp": "雛見沢だった訳"
+        },
+        {
+            "Id": 36,
+            "Script": "_tsum_tips_013",
+            "Title": "Накануне",
+            "TitleJp": "前夜"
+        },
+        {
+            "Id": 37,
+            "Script": "_tsum_tips_014",
+            "Title": "Дьявольский сценарий",
+            "TitleJp": "悪魔の脚本"
+        }
+    ]
+}
