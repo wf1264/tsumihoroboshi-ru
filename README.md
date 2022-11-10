@@ -16,7 +16,7 @@
     https://www.gog.com/en/game/higurashi_when_they_cry_hou_ch6_tsumihoroboshi  
     https://www.mangagamer.com/detail.php?product_code=1060  
 2)
-    Установите патч 07th-Mod English Watanagashi через установщик 07th-Mod:  
+    Установите патч 07th-Mod English Tsumihoroboshi через установщик 07th-Mod:  
     https://github.com/07th-mod/python-patcher/releases/latest  
 3)
     Загрузите последнюю версию перевода.  
