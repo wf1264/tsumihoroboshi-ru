@@ -1,0 +1,10 @@
+name: Build Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  call-workflow:
+    uses: wf1264/onikakushi-ru/.github/workflows/reusable_build_release.yml@main
